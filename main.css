@@ -1,0 +1,91 @@
+.body {
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+.navigation-wrapper {
+    height: 10px;
+    background-color: #000000;
+    color: #dddbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    align-content: center;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.center-column > .things {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.center-column {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3px;
+}
+.center-column > .things {
+        font-weight: 600;
+            
+}
+.center-column > .explore {
+        font-family: 'DM Sans', sans-serif;
+        color: rgb(215, 215, 0);
+           
+}    
+
+.right-column {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.icon {
+    margin: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+
+
+.nav {
+ 
+    background-color: #000000;
+    display:grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    align-content: center;
+}
+
+.middle-image {
+    display: flex;
+    justify-content: right;
+}
+
+.middle-image img {
+    width: 500px;
+    height: 100%;
+}
+
+.text {
+
+    align-items:flex-start;
+    font-family: 'DM Sans', sans-serif;
+    color: whitesmoke;
+
+}
+
+.text > .line2 {
+
+    align-items:flex-start;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(176, 176, 176);
+
+}
+
